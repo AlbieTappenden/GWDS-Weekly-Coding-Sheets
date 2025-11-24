@@ -1,0 +1,146 @@
+
+/* this will make the entire background of the website purple */
+body
+{
+    background-color: purple;
+}
+
+/* this will control the [<p> </p>] class of text */
+p
+{
+    font-family: monospace;
+    text-align: center;
+    color: lightpink;
+}
+
+/* this will control all the h[value] classes defined */
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightyellow;
+    font-style: italic;
+    text-align: right;
+}
+
+/* however if you want to control items that are already being styled you can,
+but they will also hold what they are given above aswell */
+
+/* for example, the text is white, but still aligned on the right */
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    color: white;
+    font-style: normal;
+}
+
+/* and the same shown here */
+h2
+{
+    color: black;
+}
+
+/* this is a class selector, it allows you to assign it inside the [index.html]
+to stuff like the paragraph for example. and will affect that item with the
+settings you apply below */
+.special
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+ul
+{
+    list-style-type: square;
+}
+
+/* what this does is change the numbered list into roman numerals */
+ol
+{
+    list-style-type: upper-roman;
+}
+
+li
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* this is also a class selector as shown on line 42*/
+.fave
+{
+    color: orangered;
+}
+
+/* this will be a class selector so we can change the size of the
+pizza image to half its size */
+.pizza
+{
+    width: 50%;
+}
+
+a
+{
+    color: white;
+}
+
+/* -- Cake Page + ALL in the [cake.html] file -- */
+
+/* this class selector we will use in the [cake.html] file */
+.cake-text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* this class selector will be used to create a box border */
+.section-one
+{
+    border: 1px solid white;
+    background-color: darkslateblue;
+}
+
+/* this as the same as above changes everything named [caption], for example
+<p class="cake-text caption"> at line 42 
+and so it will change the text to be a smaller size and also italics */
+.caption
+{
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* here we will create another class selector that will allow our images
+to be displated horizontally used on line 43 */
+.container
+{
+    display: flex;
+    /* here we add more settings*/
+
+}
+
+/* here we are going to make a class selector that will
+help add padding to the images used on line 48 */
+.cake-item
+{
+    border: 1px dashed yellow;
+    width: 275px;
+    height: 275px;
+    padding: 4px;
+}
+
+/* this will add more style to the individual
+boxes on the cake images, also making it so the text doesnt look like
+its merging with ones next to it */
+.cake-group
+{
+    border: 2px solid green;
+    width: 275px;
+}
+
+/* TASK 18 TO DO */
