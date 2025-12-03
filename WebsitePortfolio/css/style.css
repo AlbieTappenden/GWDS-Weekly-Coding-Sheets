@@ -1,0 +1,35 @@
+.custom-bg 
+{
+    background-color: #8b8b8b; 
+    color: black;
+}
+
+.figma-underline 
+{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.888%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.figma-simple-underline
+{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.istokweb-font
+{
+    font-family: "Istok Web";
+    color: white;
+}
