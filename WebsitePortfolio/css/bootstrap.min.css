@@ -46,3 +46,9 @@
 {
     color: var(--bs-blue);
 }
+
+.carousel-control-next,
+.carousel-control-prev
+{
+    filter: invert(0%);
+}
