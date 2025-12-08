@@ -8,8 +8,8 @@
 
 .custom-bg 
 {
-    background-color: #dadada; 
-    color: black;
+    background-color: #001b2d; 
+    color: rgb(255, 255, 255);
 }
 
 .figma-underline 
@@ -39,5 +39,5 @@
 .istokweb-font
 {
     font-family: "Istok Web";
-    color: black;
+    color: rgb(255, 255, 255);
 }
